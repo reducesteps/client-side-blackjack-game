@@ -2,6 +2,36 @@
 
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Add more styles here */
+#game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#player-area, #dealer-area, #game-info {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+}
+
+#player-cards, #dealer-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+#player-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
